@@ -11,9 +11,8 @@ import net.lingala.zip4j.model.*;
 import net.lingala.zip4j.exception.*;
 
 import g4p_controls.*;
-import peasy.*;
-
 import ddf.minim.*;
+
 Minim minim;
 
 boolean ready = false;

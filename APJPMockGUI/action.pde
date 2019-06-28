@@ -51,11 +51,8 @@ class Action {
   }
 
   void setupGUI() {
-    //println(time, isTimed());
-    if (isTimed()) {
+    if (isTimed())
       endTime = millis() / 1000. + time;
-      //println(millis(), endTime);
-    }
     switch (type) {
     case INSTRUCTIONS:
       instructionsLabel.setText(parameters[0]);
